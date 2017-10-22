@@ -6,7 +6,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("|{0, 10}|", 999);
+            Console.WriteLine("|{0,-10}|", 000);
         }
     }
 }
