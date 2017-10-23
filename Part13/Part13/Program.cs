@@ -5,10 +5,10 @@ namespace variableProperties
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : double");
-            Console.WriteLine("Size :" + sizeof(double));
-            Console.WriteLine("Minimum Value :" + double.MinValue);
-            Console.WriteLine("Maximum Value :" + double.MaxValue);
+            Console.WriteLine("Data type : decimal");
+            Console.WriteLine("Size :" + sizeof(decimal));
+            Console.WriteLine("Minimum Value :" + decimal.MinValue);
+            Console.WriteLine("Maximum Value :" + decimal.MaxValue);
         }
     }
 }
