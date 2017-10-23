@@ -5,10 +5,10 @@ namespace variableProperties
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Data type : short");
-            Console.WriteLine("Size :" + sizeof(short));
-            Console.WriteLine("Minimum Value :" + short.MinValue);
-            Console.WriteLine("Maximum Value :" + short.MaxValue);
+            Console.WriteLine("Data type : ushort");
+            Console.WriteLine("Size :" + sizeof(ushort));
+            Console.WriteLine("Minimum Value :" + ushort.MinValue);
+            Console.WriteLine("Maximum Value :" + ushort.MaxValue);
         }
     }
 }
