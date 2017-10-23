@@ -1,9 +1,19 @@
 ﻿using System;
-class Operators
+namespace Lab1
 {
-    static void Main()
+    class Program
     {
-        bool a = 4 > 5;
-        Console.WriteLine("{0}", a);
+        static void Main(string[] args)
+        {
+             Console.Write("Please enter Number : ");
+            int var1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Number : {0}", var1);
+            Random random = new Random();
+            int randomNumber = random.Next(0, 9);
+            Console.WriteLine("RandomNumber : {0}", randomNumber);
+
+            bool a = (var1 < randomNumber);
+            Console.WriteLine("{1} < {2} = {0}", a, var1, randomNumber);
+        }
     }
 }
