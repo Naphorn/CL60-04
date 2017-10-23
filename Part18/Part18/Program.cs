@@ -5,15 +5,11 @@ namespace variableProperties
     {
         static void Main(string[] args)
         {
-            const double lightSpeed = 186000d;   // miles per second
-            Console.WriteLine("Light speed = {0} Mile Per second", lightSpeed);
-            const double mileTokm = 1.609344;
-            Console.WriteLine("Light speed = {0} km Per second", lightSpeed * mileTokm);
-            const double SunToEarthDistance = 93000000d;  // miles
-            Console.WriteLine("SunToEarthDistance = {0} km", SunToEarthDistance * mileTokm);
-            double SunToEarthTimeOfLight = SunToEarthDistance / lightSpeed;  // miles
-            Console.WriteLine("SunToEarthTimeOfLight = {0} seconds", SunToEarthTimeOfLight);
-            Console.WriteLine("SunToEarthTimeOfLight = {0} minutes", SunToEarthTimeOfLight / 60d);
+            const double SunTo_Mercury_Distance = 35983594.61;  // miles
+            Console.WriteLine("SunTo_Mercury_Distance = {0} a.u.", SunTo_Mercury_Distance * value1);
+            double SunTo_Mercury_TimeOfLight = SunTo_Mercury_Distance / lightSpeed; // miles 
+            Console.WriteLine("SunTo_Mercury_TimeOfLight = {0} minutes", SunTo_Mercury_TimeOfLight / 60d);
+            Console.WriteLine("");
         }
     }
 }
