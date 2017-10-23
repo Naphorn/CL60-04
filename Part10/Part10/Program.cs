@@ -7,7 +7,7 @@ namespace Lab01
         {
             string str;
             Console.Write("Enter some characters.");
-            str = Console.Read();
+            str = Console.ReadLine();
             Console.WriteLine("You entered: " + str);
         }
     }
